@@ -1,0 +1,68 @@
+const testimonials = [
+  {
+    id: 1,
+    quote: "NavvByte completely transformed our brand. The team understood our vision and delivered something that exceeded every expectation. Our leads increased 3x within the first month.",
+    name: 'Arjun Mehta',
+    role: 'CEO',
+    company: 'Luxe Living Realty',
+    rating: 5,
+  },
+  {
+    id: 2,
+    quote: "The AI chatbot they built for us handles 80% of customer queries automatically. It's like having a tireless team member working 24/7. Absolute game changer.",
+    name: 'Priya Sharma',
+    role: 'Operations Head',
+    company: 'TechNova Solutions',
+    rating: 5,
+  },
+  {
+    id: 3,
+    quote: "From zero social media presence to 50K followers in 6 months. The content quality and strategy were outstanding. NavvByte doesn't just deliver — they over-deliver.",
+    name: 'Rahul Deshmukh',
+    role: 'Founder',
+    company: 'GreenLeaf Organics',
+    rating: 5,
+  },
+  {
+    id: 4,
+    quote: "Our website went from looking outdated to being one of the best in our industry. The animations and user experience are incredible. Clients constantly compliment it.",
+    name: 'Sneha Kulkarni',
+    role: 'Marketing Director',
+    company: 'Artisan Coffee Co.',
+    rating: 5,
+  },
+  {
+    id: 5,
+    quote: "Working with NavvByte was the best business decision we made this year. They handle our entire digital presence — branding, content, ads, website — all under one roof.",
+    name: 'Vikram Patel',
+    role: 'Co-founder',
+    company: 'FitPulse',
+    rating: 5,
+  },
+  {
+    id: 6,
+    quote: "The CRM system they set up streamlined our entire sales process. We went from managing leads in spreadsheets to a fully automated pipeline. Revenue up 200%.",
+    name: 'Ananya Joshi',
+    role: 'Business Head',
+    company: 'UrbanStyle Fashion',
+    rating: 5,
+  },
+  {
+    id: 7,
+    quote: "NavvByte's team is creative, responsive, and incredibly talented. They don't just take orders — they think strategically and push your brand further than you imagined.",
+    name: 'Rohan Gupta',
+    role: 'Founder',
+    company: 'EduSpark',
+    rating: 5,
+  },
+  {
+    id: 8,
+    quote: "The branding package was worth every penny. Our new identity perfectly captures who we are. The attention to detail and design quality is world-class.",
+    name: 'Meera Reddy',
+    role: 'Creative Director',
+    company: 'PixelCraft Studios',
+    rating: 4,
+  },
+];
+
+export default testimonials;

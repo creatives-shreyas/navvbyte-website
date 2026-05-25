@@ -1,0 +1,4 @@
+.magnetic-btn {
+  display: inline-flex;
+  will-change: transform;
+}

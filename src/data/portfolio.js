@@ -1,0 +1,68 @@
+const portfolio = [
+  {
+    id: 1,
+    title: 'Luxe Living Realty',
+    category: 'Branding',
+    description: 'Complete brand identity redesign for a premium real estate firm, including logo, brand guidelines, and marketing collateral.',
+    metrics: { leads: '3x more leads', roi: '250% ROI', engagement: '+180% engagement' },
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'FitPulse App',
+    category: 'Web',
+    description: 'Full-stack fitness tracking web application with AI-powered workout recommendations and progress analytics.',
+    metrics: { users: '10K+ users', retention: '85% retention', rating: '4.8★ rating' },
+    featured: false,
+  },
+  {
+    id: 3,
+    title: 'GreenLeaf Organics',
+    category: 'Social Media',
+    description: 'Social media strategy and content creation that grew their Instagram from 2K to 50K followers in 6 months.',
+    metrics: { followers: '50K followers', engagement: '12% engagement', sales: '4x online sales' },
+    featured: false,
+  },
+  {
+    id: 4,
+    title: 'TechNova AI Dashboard',
+    category: 'AI',
+    description: 'Custom AI-powered business analytics dashboard with predictive insights and automated reporting.',
+    metrics: { timeSaved: '60% time saved', accuracy: '95% accuracy', decisions: '3x faster decisions' },
+    featured: true,
+  },
+  {
+    id: 5,
+    title: 'Artisan Coffee Co.',
+    category: 'Branding',
+    description: 'Brand identity and packaging design for a specialty coffee startup, from concept to market launch.',
+    metrics: { recognition: '90% brand recognition', sales: '200% launch sales', stores: '15 retail stores' },
+    featured: false,
+  },
+  {
+    id: 6,
+    title: 'EduSpark Platform',
+    category: 'Web',
+    description: 'E-learning platform with live classes, course management, and student analytics for an EdTech startup.',
+    metrics: { students: '5K+ students', courses: '120+ courses', completion: '78% completion rate' },
+    featured: false,
+  },
+  {
+    id: 7,
+    title: 'UrbanStyle Fashion',
+    category: 'Social Media',
+    description: 'Complete social media overhaul and influencer marketing campaign for a D2C fashion brand.',
+    metrics: { reach: '2M+ reach', sales: '5x online sales', followers: '100K+ followers' },
+    featured: false,
+  },
+  {
+    id: 8,
+    title: 'SmartHire CRM',
+    category: 'AI',
+    description: 'AI-powered recruitment CRM with automated screening, interview scheduling, and candidate matching.',
+    metrics: { hiring: '70% faster hiring', quality: '40% better matches', cost: '50% less cost per hire' },
+    featured: false,
+  },
+];
+
+export default portfolio;
