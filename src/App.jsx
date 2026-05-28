@@ -5,7 +5,8 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import WhatsAppButton from './components/shared/WhatsAppButton';
 import PageTransition from './components/shared/PageTransition';
-import { useEffect } from 'react';
+import Preloader from './components/shared/Preloader';
+import { useEffect, useState } from 'react';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -53,14 +54,20 @@ function AnimatedRoutes() {
 
 function AppContent() {
   useLenis();
+  const [preloaderComplete, setPreloaderComplete] = useState(false);
 
   return (
     <>
-      <ScrollToTop />
-      <Navbar />
-      <AnimatedRoutes />
-      <Footer />
-      <WhatsAppButton />
+      <Preloader onComplete={() => setPreloaderComplete(true)} />
+      {preloaderComplete && (
+        <>
+          <ScrollToTop />
+          <Navbar />
+          <AnimatedRoutes />
+          <Footer />
+          <WhatsAppButton />
+        </>
+      )}
     </>
   );
 }

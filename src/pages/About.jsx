@@ -27,6 +27,7 @@ export default function About() {
   const missionRef = useScrollReveal();
   const valuesRef = useStaggerReveal();
   const teamRef = useStaggerReveal();
+  const timelineRef = useStaggerReveal('.about-timeline__item');
 
   return (
     <main className="about-page">
@@ -62,7 +63,7 @@ export default function About() {
           <div className="section__header">
             <TextReveal>Our Journey</TextReveal>
           </div>
-          <div className="about-timeline">
+          <div className="about-timeline" ref={timelineRef}>
             {milestones.map((m, i) => (
               <div key={i} className="about-timeline__item" id={`milestone-${m.year}`}>
                 <div className="about-timeline__dot" />
